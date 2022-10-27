@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Spicy+Rice|Faster+One">
+
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <ul>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+          </ul>
+          <ul>
+            <a href="#">Adopt</a>
+          </ul>
+          <ul>
+            <a href="#">Resources</a>
+          </ul>
+          <ul>
+            <a href="contact.html"> Contact</a>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+    <div class="everything">
+    <h1>Contact Page</h1>
+    <form action="https://oim-apis.herokuapp.com/form" method="post">
+    <fieldset class="set1">
+       <legend><h3>Your Information:</h3></legend> 
+   
+
+  
+          <div>
+            <div class="name">
+              <label for="input-name">Name:</label>
+              <input
+                type="text"
+                placeholder="Enter your name here"
+                size="20"
+                id="input-name"
+                name="name"
+              />
+            </div>
+            <br>
+    
+            <div>
+              <label for="input-email">Email:</label>
+              <input
+                type="text"
+                name="email"
+                placeholder="Enter your email here"
+                size="20"
+                id="input-email"
+              />
+            </div>
+           <br>
+            <div>
+              <label for="input-phone">Phone Number:</label>
+              <input
+                type="text"
+                name="phone"
+                placeholder="Enter your number here"
+                size="20"
+                id="input-phone"
+              />
+            </div>
+
+    </fieldset>
+    <br>
+    <fieldset class="set2">
+        <legend> <h3>Your Review:</h3></legend>  
+        <div>
+   Would you adopt a Belgian Malinois?
+          <select name="product" id="product">
+            <option value="">--Select an option--</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+
+        
+            <div>
+                What do you think of this website?
+            </div>
+          
+            <div>
+             
+                <input type="radio" id="Great" name="opinion" value="Great" />
+                <label for="Great"> Great</label>
+                <input type="radio" id="Awesome" name="opinion" value="Awesome" />
+                <label for="Awesome">Awesome</label>
+                <input type="radio" id="Boring" name="opinion" value="Boring" />
+                <label for="Boring">Boring</label>
+            </div>
+        
+
+         
+
+          <div>
+            <label for="comments">Website Feedback:</label>
+          </div>
+          <div>
+            <textarea
+              id="comments"
+              name="comments"
+              rows="5"
+              columns="50"
+            ></textarea>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" name="emailupdates" value="emailupdates" checked />
+              Sign me up for email updates
+            </label>
+          </div>
+
+          <div>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+          </div>
+        </fieldset>
+    
+      </div>
+    </form>
+  </body>
+</div>
+</html>
+
+ 
+
+    
+
+

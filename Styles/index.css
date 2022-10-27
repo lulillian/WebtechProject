@@ -93,19 +93,42 @@ header{
 }
 h2{
     font-family: 'Spicy Rice';
-    font-size: 20px;
+    font-size: 40px;
     color:rgb(26, 24, 24);
-
+    text-align:center;
 }
 .part3{
     background-color: rgb(255, 255, 255);
 }
 .img4{
     border-radius: 50%;
-    width: 200px;
-    height: 10z;
+    width: 150px;
+    height: 150px;
 }
+.traits{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-evenly;
+}
+.item{
+    color: rgb(0, 0, 0);
+    font-family: 'Spicy Rice';
+    font-size: 25px;
+}
+/* .history{
+    background-color: red;
+    display:block;
+    flex-direction: column;
 
+
+} */
+.num1{
+    text-align: center;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
 
 
 
