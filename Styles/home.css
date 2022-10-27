@@ -5,6 +5,8 @@
     background-color: rgb(228, 228, 228);
 
 } */
+
+
 img{
     width:100%;
     margin-top:0px;
@@ -16,23 +18,25 @@ img{
 }
 .Welcome{
     position:absolute;
-    bottom:450px;
+    bottom:500px;
     left:10px;
+    /* color:rgb(87, 78, 78); */
     color:black;
     font-size: 35px;
-    font-family: 'Spicy Rice';
+    font-family: 'Faster One';
 }
 .to{
     position:absolute;
     bottom:290px;
     left:150px;
+    /* color:rgb(87, 78, 78); */
     color:black;
     font-size: 30px;
-    font-family: 'Spicy Rice';
+    font-family: 'Faster One';
 }
 .belgian{
     position:absolute;
-    bottom:370px;
+    bottom:400px;
     left:590px;
     color:rgb(0, 0, 0);
     font-size: 60px;
@@ -40,31 +44,30 @@ img{
 }
 .malinois{
     position:absolute;
-    bottom:150px;
+    bottom:335px;
     right:10px;
     color:rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 45px;
     font-family: 'Faster One';
     font-weight: lighter;
 }
 .exp{
     position:absolute;
-    bottom:-80px;
-    margin-right: center;
-    margin-left: center;
-    color:black;
-    font-size: 5px;
-    font-family: 'Spicy Rice';
+    bottom:-15px;
+    right:300px;
+    color:rgb(0, 0, 0);
+    font-size:50px;
+    font-family: 'Faster One';
 }
 iframe{
     display: block;
     margin-right: auto;
     margin-left:auto;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 ul,a{
 text-decoration: none;    
-color:rgb(0, 0, 0);
+color:rgb(87, 78, 78);
 
 
 }
@@ -87,6 +90,20 @@ header{
 }
 .nav ul a:hover{
     color:brown;
+}
+h2{
+    font-family: 'Spicy Rice';
+    font-size: 20px;
+    color:rgb(26, 24, 24);
+
+}
+.part3{
+    background-color: rgb(255, 255, 255);
+}
+.img4{
+    border-radius: 50%;
+    width: 200px;
+    height: 10z;
 }
 
 
