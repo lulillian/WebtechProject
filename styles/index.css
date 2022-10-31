@@ -3,6 +3,7 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+
 }
 
 /* div {
@@ -23,11 +24,17 @@ img{
     margin-left: 0;
     height:auto;
 }
-
+.part1{
+    position: relative;
+    text-align: center;
+    color:black;
+}
 .Welcome{
     position:absolute;
-    bottom:500px;
-    left:10px;
+    /* bottom:450px; */
+    bottom:80%;
+    /* left:10px; */
+    left:5%;
     /* color:rgb(87, 78, 78); */
     color:black;
     font-size: 35px;
@@ -35,8 +42,10 @@ img{
 }
 .to{
     position:absolute;
-    bottom:290px;
-    left:150px;
+    /* bottom:270px; */
+    bottom: 45%;
+    /* left:150px; */
+    left: 15%;
     /* color:rgb(87, 78, 78); */
     color:black;
     font-size: 30px;
@@ -44,26 +53,33 @@ img{
 }
 .belgian{
     position:absolute;
-    bottom:400px;
-    left:590px;
+    /* bottom:350px; */
+    bottom: 65%;
+    /* left:590px; */
+    left: 45%;
     color:rgb(0, 0, 0);
     font-size: 60px;
     font-family: 'Faster One';
 }
 .malinois{
-    display: block;
+    /* display: block; */
     position:absolute;
-    bottom:335px;
-    right:10px;
+    /* bottom:300px; */
+    bottom: 55%;
+    /* right:10px; */
+    left: 57%;
     color:rgb(0, 0, 0);
     font-size: 45px;
-    font-family: 'Faster One';
+    font-family:'Faster One';
     font-weight: lighter;
 }
 .exp{
     position:absolute;
-    bottom:-15px;
-    right:300px;
+    /* bottom:-15px; */
+    bottom: -5%;
+    /* right:300px; */
+    left:25%;
+
     color:rgb(0, 0, 0);
     font-size:50px;
     font-family: 'Faster One';

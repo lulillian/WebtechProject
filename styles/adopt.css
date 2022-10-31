@@ -24,6 +24,28 @@ ul,a{
     .nav ul a:hover{
         color:brown;
     }
+    .container{
+      position: relative;
+      text-align: center;
+      color: black;
+    }
+    .commit{
+      position: absolute;
+      top: 50%;
+      left: 43%;
+   
+     }
+     .par1{
+      width: 60%;
+      background-color: black;
+      color: white;
+      position: absolute;
+      top:65%;
+      left:39%;
+     }
+
+
+
     table {
         border-collapse: collapse;
         width: 50%;
@@ -43,6 +65,7 @@ ul,a{
       }
       h1{
         text-align: center;
+        font-family: 'Spicy Rice';
       }
       caption{
         color: black;
@@ -55,6 +78,12 @@ ul,a{
       }
       .kong{
         width:150px;
+      }
+      .tug{
+        width:150px;
+      }
+      .grey{
+        width:100%;
       }
 
       
