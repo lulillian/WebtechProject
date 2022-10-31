@@ -7,7 +7,7 @@ ul,a{
     header{
         display:flex;
         justify-content:center;
-        /* align-items: center; */
+        
         
     
     }
@@ -37,21 +37,28 @@ ul,a{
      }
      .par1{
       width: 60%;
-      background-color: black;
-      color: white;
+      background-color: rgb(122, 118, 118);
+      color: rgb(1, 1, 1);
       position: absolute;
-      top:65%;
+      top:57%;
       left:39%;
+      font-size: 20px; 
+      
+     }
+     caption{
+      font-size: 30px;
+      font-family: 'Spicy Rice';
+      color: black;
      }
 
 
 
     table {
         border-collapse: collapse;
-        width: 50%;
+        width: 90%;
         margin-right: auto;
         margin-left:auto;
-        background-color: rgb(126, 74, 74);
+        background-color: rgb(189, 180, 168);
       }
       table,
       td,
@@ -61,15 +68,14 @@ ul,a{
         text-align: center;
       }
       td:hover{
-        background-color: rgb(212, 212, 212);
+        background-color: rgb(12, 10, 10);
       }
       h1{
         text-align: center;
         font-family: 'Spicy Rice';
+        font-size: '30px';
       }
-      caption{
-        color: black;
-      }
+  
       img.balls{
         width: 100px;
       }

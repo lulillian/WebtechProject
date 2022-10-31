@@ -1,3 +1,8 @@
+
+*{
+    background-color: rgb(255, 255, 255);
+}
+
 ul,a{
     text-decoration: none;    
     color:rgb(87, 78, 78);
@@ -26,14 +31,49 @@ ul,a{
     }
     table {
         border-collapse: collapse;
-        width: 50%;
+        width: 70%;
         margin-right: auto;
         margin-left:auto;
       }
       table,
       td,
       th {
-        border: 3px solid rgb(133, 128, 128);
+        border: 3px solid rgb(0, 0, 0);
         color: rgb(0, 0, 0);
         text-align: center;
       }
+      caption{
+        font-size: 30px;
+        font-family: 'Spicy Rice';
+        color: black;
+      }
+      .akc{
+        border-radius: 10%;
+        width: 150px;
+        height: 150px;
+        
+    }
+    h1{
+        text-align: center;
+    }
+    .embark{
+        border-radius: 10%;
+        width: 150px;
+        height: 150px;
+        
+    }
+    .hills{
+        border-radius: 10%;
+        width: 150px;
+        height: 150px;
+    }
+    .onlineres{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .item{
+        color: rgb(0, 0, 0);
+        font-family: 'Spicy Rice';
+        font-size: 25px;
+    }
