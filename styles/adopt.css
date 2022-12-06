@@ -35,15 +35,17 @@ ul,a{
       left: 43%;
    
      }
+   
      .par1{
       width: 60%;
-      background-color: rgb(122, 118, 118);
-      color: rgb(1, 1, 1);
+      /* background-color: rgb(122, 118, 118); */
+      color: rgb(255, 255, 255);
       position: absolute;
-      top:57%;
-      left:39%;
+      top:70%;
+      left:38%;
       font-size: 20px; 
-      
+
+
      }
      caption{
       font-size: 30px;

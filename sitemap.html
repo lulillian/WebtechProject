@@ -53,6 +53,10 @@
     <h1>Site Map
     </h1>
     <hr>
+
+    <div>
+      <img alt="site1" title="site1" src="images/site2.jpg" height="300" width="500" id="site2">
+    </div>
   <div class="list">
       <ul>
         <li><a href="index.html">Home </a></li>
@@ -63,6 +67,28 @@
     </ul>
 
     </div>
+
+  <script>
+ function enlargeImage(watermelon) {
+        let w = watermelon.width;
+        w = 1.25 * w;
+        watermelon.width = w;
+      }
+      function smallerImage(pea) {
+        let w = pea.width;
+        w = w/1.25;
+        pea.width = w;
+      }
+      document.getElementById("site2").addEventListener("mouseover", function (){
+        enlargeImage(document.getElementById("site2"));
+      });
+
+      document.getElementById ("site2").addEventListener("mouseout", function (){
+        smallerImage(document.getElementById("site2"));
+      });
+
+  </script>
+
    
 
   

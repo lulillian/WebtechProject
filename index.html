@@ -66,12 +66,15 @@
 
    <h2>Traits & Characteristics</h2>
 
-   <div class="traits">
-      <div class="item item-1"><img class="img4" src="images/bite.jpg" alt="bite" title="bite"/>Protective</span>
+   <div class="traits" id="traits">
+      <div class="item item-1"><img class="img4" src="images/bite.jpg" alt="bite" title="bite" id="biteimg"/><span id="bite">Protective</span>
       </div>
-      <div class="item item-2"> <img class="img4" src="images/brave.jpg" alt="brave" title="brave">High Energy</div>
-      <div class="item item-3"><img class="img4" src="images/ball.jpg" alt="doginball" title="doginball">Loyal</div>
-      <div class="item item-4"><img class="img4" src="images/snow.jpg" alt="snow" title="snow"> Family Friendly</div>
+
+      <div class="item item-2"> <img class="img4" src="images/brave.jpg" alt="brave" title="brave" id="energyimg"><span id="energy">High Energy</span></div>
+
+      <div class="item item-3"><img class="img4" src="images/ball.jpg" alt="doginball" title="doginball" id="dogimg"><span id="dog">Loyal</span></div>
+
+      <div class="item item-4"><img class="img4" src="images/snow.jpg" alt="snow" title="snow" id="snowimg"> <span id="snow"> Family Friendly</span></div>
     </div>
 
    <br>
@@ -90,4 +93,61 @@
     </div>
     <div class="his num2"> 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/DMBIOwJK_0g?controls=0&amp;start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7xbFrfAoJ5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+  <div>
   </div>
+
+  <script>
+    function changecolor(id){
+      document.getElementById(id).style.color = "blue";
+    }
+
+    function changeog(id){
+      document.getElementById(id).style.color = "black";
+    }
+
+    document.getElementById("biteimg").addEventListener("mouseover", function (){
+      changecolor("bite");
+    } );
+
+    document.getElementById("biteimg").addEventListener("mouseout", function (){
+      changeog("bite");
+    } );
+  
+
+    document.getElementById("energyimg").addEventListener("mouseover", function (){
+      changecolor("energy");
+      
+    } );
+
+    document.getElementById("energyimg").addEventListener("mouseout", function (){
+      changeog("energy");
+    } );
+
+    document.getElementById("dogimg").addEventListener("mouseover", function (){
+      changecolor("dog");
+    } );
+
+    document.getElementById("dogimg").addEventListener("mouseout", function (){
+      changeog("dog");
+    } );
+    
+    document.getElementById("snowimg").addEventListener("mouseover", function (){
+      changecolor("snow");
+    } );
+
+    document.getElementById("snowimg").addEventListener("mouseout", function (){
+      changeog("snow");
+    } );
+
+
+
+
+
+
+
+
+  </script>
+  </body>

@@ -57,7 +57,7 @@
     
     <div class="everything">
 
-    <form action="https://oim-apis.herokuapp.com/form" method="post">
+    <form action="https://oim-apis.herokuapp.com/form" method="post" name="myForm" onsubmit="return validateForm()">
     <fieldset class="set1">
        <legend><h3>Your Information:</h3></legend> 
    
@@ -157,6 +157,26 @@
     
       </div>
     </form>
+    <script>
+      function validateForm(){
+        let name = document.forms["myForm"]["name"].value;
+        let email = document.forms["myForm"]["email"].value;
+        let phone = document.forms["myForm"]["phone"].value;
+        let product = document.forms["myForm"]["product"].value;
+        let opinion = document.forms["myForm"]["opinion"].value;
+        let comments = document.forms["myForm"]["comments"].value;
+
+
+
+        if( name == ""  || email == "" || phone == "" || product == "" || opinion =="" || comments==""){
+          alert("Please fill out the entire form.");
+          return false;
+        }
+        }
+
+
+    
+    </script>
 
   </body>
 </div>

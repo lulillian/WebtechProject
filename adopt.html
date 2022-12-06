@@ -58,17 +58,16 @@
     <div class="container">
       <div class="commit">
         <h1>Can you commit?</h1>
+        <button id="yesbtn">Yes</button> <button id="nobtn">No</button>
       </div>
       <img src="images/grey.jpg" title="grey" alt="grey" class="grey" />
       <div class="par1">
-        <p class="par1">
-          Belgian Malinois are awesome dogs. They are known for their loyalty
-          and protective instincts. They are also very bitey animals, so
-          knowning how to deal and train them is a must, or else they can become
-          a threat to anyone they approach. Mals are not like other breeds, they
-          thrive off of challenges and are happy when they are properly trained.
+        <p class="par1"
+        id="para">
+
         </p>
       </div>
+    
     </div>
 
     <div class="table1">
@@ -144,5 +143,27 @@
         </td>
       </tr>
     </table>
+    <script>
+      function changeyes(){
+        document.getElementById("para").innerText="       Belgian Malinois are awesome dogs. They are known for their loyalty and protective instincts. They are also very bitey animals, so knowning how to deal and train them is a must, or else they can become a threat to anyone they approach. Mals are not like other breeds, they thrive off of challenges and are happy when they are properly trained."
+
+      }
+
+      function changeno(){
+
+        document.getElementById("para").innerText= "Belgian Malinois are the perfect dogs for owners that are ready to commit extensive time and resources on them. If you cannot dedicate to them, don't worry! There are over 300+ breeds in the world, so don't stop searching for your dog soulmate!"
+
+      }
+
+
+    
+      document.querySelector("#yesbtn").onclick = function (){
+        changeyes();
+      }
+
+      document.querySelector("#nobtn").onclick = function(){
+        changeno();
+      }
+    </script>
   </body>
 </html>

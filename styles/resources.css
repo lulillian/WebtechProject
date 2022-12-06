@@ -85,3 +85,9 @@ ul,a{
         margin-left: auto;
         margin-right: auto;
     }
+
+    #morebutton{
+        margin-left: 45%;
+        top: 50%;
+
+    }

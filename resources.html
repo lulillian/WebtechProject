@@ -123,7 +123,15 @@
 </caption>
     </table>
 <h1> Some more resources to check out!</h1>
- <img src="images/eyes.jpg" title="eyes" alt="eyes" class="eyes">
+<div>
+  <img src="images/eyes.jpg" id="morepic" title="eyes" alt="eyes" class="eyes">
+
+
+</div>
+<br>
+<button type="button" id="morebutton">Show Me more Puppies!</button>
+
+
 
     <div class="onlineres">
       <div class="item item-1">
@@ -132,8 +140,7 @@
           src="images/akc.png"
           alt="akclogo"
           title="akclogo"
-        />American Kennel Club
-</a>
+        />American Kennel Club</a>
       </div>
 
       <div class="item item-2">
@@ -154,5 +161,23 @@
         
       </div>
     </div>
+    <script>
+      const imgs = [1,2,3,4,5,6,7,8,9]
+      function changeImg(){
+
+
+        const randValue = Math.floor(Math.random()*9) + 1;
+        document.getElementById("morepic").src=`images/slideshow/${randValue}.jpg`;
+
+      }
+
+      document.getElementById("morebutton").addEventListener("click", function (){
+        changeImg();
+      });
+
+
+
+
+    </script>
   </body>
 </html>
